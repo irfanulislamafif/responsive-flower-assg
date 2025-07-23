@@ -11,6 +11,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Noto+Serif:ital,wght@0,100..900;1,100..900&display=swap"
       rel="stylesheet"
     />
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
@@ -31,13 +32,15 @@
           <div class="nav-right">
             <div class="nav-2">
               <ul>
-                <li><a href="home"><span  class="home-span">Home</span></a></li>
+                <li>
+                  <a href="home"><span class="home-span">Home</span></a>
+                </li>
                 <li><a href="shop">Shop</a></li>
                 <li><a href="about">About Us</a></li>
               </ul>
             </div>
 
-            <div><i class="fa-solid fa-cart-shopping cart"></i> cart ($56)</div>
+            <div><i class="fa-solid fa-cart-shopping inter"></i> Cart ($56)</div>
           </div>
         </nav>
 
@@ -46,10 +49,10 @@
         <section class="banner">
           <div class="banner-left">
             <h1>
-              ALWAYS FRESH <br />
-              FLOWERS
+              ALWAYS <span class="orange">FRESH <br>
+              FLOWERS</span> 
             </h1>
-            <p>
+            <p class="dark-1 inter ">
               Indulge your senses with the beauty and fragrance of our fresh
               flower shop. From classic roses to exotic blooms, we offer a wide
               variety of fresh flowers that are perfect for any occasion.
