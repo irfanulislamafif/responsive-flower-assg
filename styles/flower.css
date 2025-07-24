@@ -436,7 +436,7 @@ body {
 /* media query */
 
 @media (max-width: 576px) {
-  /* navbar */
+  /* navbar there will be just logo and cart */
   .container {
     margin: 0 20px;
   }
@@ -454,7 +454,7 @@ body {
     font-size: 1rem;
     padding-top: 20px;
   }
-  .cart li {
+  .fa-cart-shopping {
     width: 24px;
     height: 24px;
   }
@@ -463,27 +463,80 @@ body {
     display: inline;
     gap: 0;
   }
-  div .nav-2 {
+  .nav-2 {
     display: none;
   }
 
-  /* banner section */
+  /* banner section image on top and text is under the image */
   .banner {
     display: flex;
     flex-direction: column-reverse;
     align-items: center;
   }
   .banner img {
-  width: 100%;
-  height: 245px;
-  margin-top: 100px;
-}
-.banner-left {
+    width: 100%;
+    height: 245px;
+    margin-top: 100px;
+  }
+  .banner-left {
+    margin-top: 10px;
+    max-width: 100%;
+  }
+  .banner-right {
+    flex: 0;
+  }
 
-  margin-top: 10px;
-  max-width: 100%;
-}
-.banner-right {
-  flex: 0;
-}
+  /* our planets: column will be 2 */
+
+  .plants-cards {
+    margin-top: 40px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    text-align: center;
+    column-gap: 20px;
+    row-gap: 30px;
+    font-family: "Inter", sans-serif;
+  }
+  /* plants lover section in media query there will no more the spinning img and the img go on top and text is going to the down */
+  .plants-lover-section {
+    margin-top: 60px;
+  }
+
+  .plants-lover {
+    flex-direction: column;
+  }
+
+  .plants-lover-left {
+
+    width: 100%;
+    background-image: url("../assets/flower-store.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    min-height: 650px; /* Ensures minimum height */
+  }
+
+  .plants-lover-right {
+    margin-top: 30px;
+    margin-left: 0;
+    padding: 0 15px;
+  }
+
+  .plants-lover-right h1 {
+    font-size: 2rem;
+    text-align: center;
+  }
+
+  .plants-lover-right ul {
+    margin-left: 20px;
+  }
+
+  .plants-lover-right ul li {
+    font-size: 1rem;
+  }
+
+  /* Hide the spinning badge on mobile */
+  .plants-lover-left img {
+    display: none;
+  }
 }
