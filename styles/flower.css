@@ -186,7 +186,9 @@ nav li a {
   margin-top: 20px;
   font-size: 1.4rem;
 }
-
+.plants-lover-right ul {
+  margin-left: 40px;
+}
 .plants-lover-left img {
   height: 286px;
   width: 286px;
