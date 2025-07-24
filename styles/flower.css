@@ -196,8 +196,17 @@ nav li a {
   left: 68%;
   top: -21%;
   padding: 0%;
+  animation: spin 2s linear infinite;
 }
 
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform:  rotate(360deg);
+  }
+}
 /* latest-deal-Section styles */
 
 .latest-deal-Section {
