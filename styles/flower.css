@@ -204,7 +204,7 @@ nav li a {
     transform: rotate(0deg);
   }
   to {
-    transform:  rotate(360deg);
+    transform: rotate(360deg);
   }
 }
 /* latest-deal-Section styles */
@@ -303,6 +303,57 @@ nav li a {
   font-size: 1.75rem;
   font-weight: 500;
 }
+
+.join-section {
+  margin-top: 120px;
+}
+
+.join-section-full {
+  background-image:linear-gradient(rgba(7, 51, 79, 0.40)), url(../assets/news-letter-bg.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+  height: 533px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+.join-section-full h1 {
+  font-size: 3.14rem;
+  font-weight: 700;
+  color: white;
+  font-family: "Noto Serif", serif ;
+
+}
+
+.join-section-full button {
+    background-color: rgba(233, 90, 8, 1);
+  color: white;
+  width: 100%;
+  border: none;
+  text-align: center;
+  font-size: 0.9rem;
+  font-weight: 550;
+  padding: 10px 53px;
+}
+.join-section-full button:hover {
+   cursor: pointer;
+  color: rgba(233, 90, 8, 1);
+  background-color: white;
+  border: 1px solid rgba(233, 90, 8, 1);
+  transition: 0.8s;
+
+}
+.join-section-full input {
+  background-color: white;
+  padding-right: 490px;
+  padding-left: 10px;
+}
+
 
 /* shared styles */
 body {
