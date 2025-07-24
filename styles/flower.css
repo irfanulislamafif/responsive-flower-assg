@@ -451,14 +451,14 @@ body {
   .cart {
     width: 113px;
     height: 24px;
-    font-size: 1.21rem;
+    font-size: 1rem;
     padding-top: 20px;
   }
   .cart li {
     width: 24px;
-height: 24px;
+    height: 24px;
   }
- 
+
   .nav-right-1 {
     display: inline;
     gap: 0;
