@@ -489,7 +489,7 @@ body {
   }
 
   .banner-right img {
-    width: 100vw;
+    width: 95%;
     height: auto;
     display: block;
     object-fit: cover;
@@ -497,6 +497,7 @@ body {
   .banner-left {
     max-width: 100%;
     padding: 0 16px;
+    padding-left: 0;
     margin-top: 30px;
   }
 
@@ -525,21 +526,23 @@ body {
   /* plants lover section in media query there will no more the spinning img and the img go on top and text is going to the down */
   .plants-lover-section {
     margin-top: 60px;
+    
   }
 
   .plants-lover-left {
-    width: 100%;
+    width: 92%;
     background-image: url("../assets/flower-store.png");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 650px; /* Ensures minimum height */
+
   }
 
   .plants-lover-right {
     margin-top: 30px;
     margin-left: 0;
-    padding: 0 15px;
+    padding: 0 18px;
   }
 
   .plants-lover-right h1 {
@@ -703,16 +706,22 @@ body {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     text-align: center;
-    column-gap: 0px;
+    column-gap: 20px;
     row-gap: 30px;
     font-family: "Inter", sans-serif;
+    width: 95%;
+  
+  
+  }
+  .plants-para {
+    width: 90%;
   }
   .plants-cards .card img {
     height: 196px;
     width: 100%;
   }
   .card {
-    width: 171px;
+    width: 170px;
   }
   .card:hover {
     cursor: pointer;
@@ -747,6 +756,6 @@ body {
     color: rgba(233, 90, 8, 1);
     background-color: white;
     border: 1px solid rgba(233, 90, 8, 1);
-    transition: 0.8s;
+    transition: 0.2s;
   }
 }
