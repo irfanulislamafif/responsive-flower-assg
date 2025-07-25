@@ -526,7 +526,6 @@ body {
   /* plants lover section in media query there will no more the spinning img and the img go on top and text is going to the down */
   .plants-lover-section {
     margin-top: 60px;
-    
   }
 
   .plants-lover-left {
@@ -536,18 +535,18 @@ body {
     background-repeat: no-repeat;
     background-position: center center;
     min-height: 650px; /* Ensures minimum height */
-
   }
 
   .plants-lover-right {
     margin-top: 30px;
     margin-left: 0;
-    padding: 0 18px;
+    padding: 0 17px;
   }
 
   .plants-lover-right h1 {
-    font-size: 2rem;
+    font-size: 1.8rem;
     text-align: center;
+    padding-right: 17px;
   }
 
   .plants-lover-right ul {
@@ -560,6 +559,9 @@ body {
 
   /* Hide the spinning badge on mobile */
   .plants-lover-left img {
+    display: none;
+  }
+  .hid {
     display: none;
   }
   .latest-deal-Section h1 {
@@ -580,7 +582,7 @@ body {
     width: 90%;
   }
   .deal-card1 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
       url(../assets/deal-bloom.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -589,7 +591,7 @@ body {
     border-radius: 22px;
   }
   .deal-card2 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
       url(../assets/deal-ana.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -597,7 +599,7 @@ body {
     height: 197px;
   }
   .deal-card3 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    background-image: linear-gradient(rgba(0, 0, 0, 0.6)),
       url(../assets/deal-zabo.png);
     background-size: cover;
     background-repeat: no-repeat;
@@ -710,8 +712,6 @@ body {
     row-gap: 30px;
     font-family: "Inter", sans-serif;
     width: 95%;
-  
-  
   }
   .plants-para {
     width: 90%;
