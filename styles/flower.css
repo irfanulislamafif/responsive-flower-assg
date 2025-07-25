@@ -441,8 +441,7 @@ body {
     margin: 0 20px;
   }
 
-  .plants-lover,
-  .full-footer {
+  .plants-lover {
     flex-direction: column;
   }
 
@@ -646,24 +645,53 @@ body {
   .join-section-full h1 {
     font-size: 1.4rem;
   }
+  /* Inside your single @media (max-width: 768px) block */
 
-  .footer-section1 {
-    width: 100%;
-  }
-  .footer-section1 p {
-    margin-top: 0;
-  }
+footer {
+  padding: 40px 0; /* Add some vertical padding */
+}
 
-  .footer-section2 {
-    display: flex;
-    flex-direction: column;
-  }
-  .footer-section3 {
-    display: flex;
-    gap: 20px;
-    justify-items: center;
-    padding-top: 0px;
-  }
+.full-footer {
+  flex-direction: column;   
+  align-items: flex-start;
+  padding: 0 20px;       
+  gap: 30px;           
+}
+.footer-section1,
+.footer-section2,
+.footer-section3 {
+  width: 100%;
+  text-align: left; 
+}
+
+
+.footer-section2 {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start; 
+  gap: 20px; 
+  padding-top: 0; 
+}
+
+.footer-section2 ul {
+  padding-left: 0; 
+  list-style: none; 
+}
+
+.footer-section2 ul li {
+  margin-bottom: 15px; 
+}
+
+.footer-section1 p {
+    margin-top: 15px; 
+}
+
+.footer-section3 {
+ 
+  display: flex;
+  justify-content: flex-start; 
+  padding-top: 0;
+}
   /* our planets: column will be 2 */
 
   .plants-cards {
